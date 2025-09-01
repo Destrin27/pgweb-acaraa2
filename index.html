@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sragen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Deskripsi">Deskripsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Penduduk">Jumlah Penduduk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Kecamatan">List Kecamatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Website">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Gambar">Foto dan Video</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- titlee -->
+    <main class="container mt-3">
+        <div class="alert alert-success" role="alert">
+            <h3>Sragen</h3>
+            <h5>Jawa Tengah</h5>
+        </div>
+
+        <!-- deskripsi -->
+        <div class="card" id="Deskripsi">
+            <div class="card-header">
+                Deskripsi
+            </div>
+            <div class="card-body">
+                <p class="card-text">Kabupaten Sragen adalah kabupaten di Wilayah metropolitan Solo Raya, Provinsi Jawa
+                    Tengah, Indonesia. Ibu kotanya adalah kecamatan Sragen, sekitar 30 km sebelah Timur Laut Kota
+                    Surakarta. Kabupaten ini berbatasan dengan Kabupaten Grobogan di Utara, Kabupaten Ngawi di Timur,
+                    Kabupaten Karanganyar di Selatan, serta Kabupaten Boyolali di Barat. Penduduk kabupaten Sragen
+                    berjumlah 1.021.435 jiwa pada tahun 2024.</p>
+                <p class="card-text">Kabupaten ini dikenal dengan sebutan "Kabupaten Fosil" dan juga dikenal sebagai
+                    "Bumi Sukowati", nama yang digunakan sejak masa kekuasaan Kerajaan (Kasunanan) Surakarta. Nama
+                    Sragen dipakai karena pusat pemerintahan berada di Sragen. Kawasan Sangiran merupakan tempat
+                    ditemukannya fosil manusia purba dan binatang purba.[butuh rujukan] Fosil-fosil tersebut kemudin
+                    menjadi koleksi Museum Fosil Sangiran</p>
+            </div>
+        </div>
+
+        <!-- Penduduk -->
+        <div class="card mt-3" id="Penduduk">
+            <div class="card-header">
+                Penduduk
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Laki-laki</td>
+                        <td>Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Perempuan</td>
+                        <td>Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Total</td>
+                        <td>Jiwa</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <!-- Kecamatan -->
+        <div class="card mt-3" id="Kecamatan">
+            <div class="card-header">
+                List Kecamatan
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li> Kalijambe </li>
+                    <li> Plupuh</li>
+                    <li> Masaran</li>
+                    <li> Kedawung</li>
+                    <li> Sambirejo</li>
+                    <li> Gondang</li>
+                    <li> Sambungmacan</li>
+                    <li> Ngrampal</li>
+                    <li> Karangmalang</li>
+                    <li> Sragen (kecamatan pusat/kota)</li>
+                    <li> Sidoharjo</li>
+                    <li> Tanon</li>
+                    <li> Gemolong</li>
+                    <li> Miri</li>
+                    <li> Sumberlawang</li>
+                    <li> Mondokan</li>
+                    <li> Sukodono</li>
+                    <li> Gesi</li>
+                    <li> Tangen</li>
+                    <li> Jenar</li>
+                </ol>
+
+            </div>
+        </div>
+
+        <!-- Link -->
+        <div class="card mt-3" id="Website">
+            <div class="card-header">
+                Website
+            </div>
+            <div class="card-body">
+                <p class="card-text">Berikut salah satu Web Sragen yang dapat dibuka
+                    <a href="https://sragenkab.com/" target="_blank" title="Klik untuk membuka link">Website Kota
+                        Sragen</a>
+            </div>
+        </div>
+
+        <!-- Gambar -->
+        <div class="card mt-3" id="Gambar">
+            <div class="card-header">
+                Foto dan Video
+            </div>
+            <div class="card-body">
+                <img src="images/alun2sragen.jpg" alt="ini harusnya sragen" width="400px" title="Alun-alun Sragen">
+            
+                <br><br>
+
+        <!--iframe-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gec5BrORwhE?si=tdlgIBLE66MLm8vo"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
